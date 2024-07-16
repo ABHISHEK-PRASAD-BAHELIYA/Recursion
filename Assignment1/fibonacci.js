@@ -1,5 +1,5 @@
 const generateFibonacci = n => {
-    if (n <= 0) return "Please enter a valid number of elements to be given an answer.";
+    if (n <= 0) return "Please enter a valid number.";
     if (n === 1) return [0];
 
     const arr = [0, 1];
