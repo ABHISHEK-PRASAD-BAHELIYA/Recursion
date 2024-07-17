@@ -5,7 +5,7 @@ const generateFibsRecurse = (n) => {
             : [...generateFibsRecurse(n -1), generateFibsRecurse(n-1)[n -2] + generateFibsRecurse(n-1)[n-3]];
 }
 
-console.log(generateFibsRecurse(-1)); // returns "Please enter a valid number of elements to be given an answer."
+console.log(generateFibsRecurse(-1)); // returns "Please enter a valid number."
 console.log(generateFibsRecurse(1)); // returns [0]
 console.log(generateFibsRecurse(2)); // returns [0, 1]
 console.log(generateFibsRecurse(3)); // returns [0, 1, 1]

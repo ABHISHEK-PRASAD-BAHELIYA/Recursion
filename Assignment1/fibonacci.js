@@ -9,7 +9,7 @@ const generateFibonacci = n => {
     return arr;
 }
 
-console.log(generateFibonacci(-3)); // "Please enter a valid number of elements to be given an answer."
+console.log(generateFibonacci(-3)); // "Please enter a valid number"
 console.log(generateFibonacci(1));  // [0]
 console.log(generateFibonacci(2));  // [0, 1]
 console.log(generateFibonacci(3));  // [0, 1, 1]
